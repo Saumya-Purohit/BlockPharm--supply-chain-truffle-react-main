@@ -9,4 +9,9 @@ hr{
     text-align: center;
     margin-top: 5rem;
 }
-
+/* Experimenting with code */
+.App {
+    background-image: url('/src/assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
