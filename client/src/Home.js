@@ -16,7 +16,7 @@ function Home() {
         history.push('/track')
     }
     return (
-        <div>
+        <div className='Frontal'>
             <h1>BlockPharm  </h1>
             <h2>Blockchain technology to develop a safe and transparent supply chain management solution
                 for the pharmaceutical business</h2>
