@@ -29,17 +29,19 @@ function Home() {
               className="d-inline-block mx-auto align-top"
               alt="BlockPharm logo"
             />
-            <strong style={{ fontSize: "1.8em" }}> BlockPharm</strong>
+            <strong style={{ fontSize: "1.8em" }}>
+              <span style={{ color: "#146C94" }}> Block</span>
+              <span style={{ color: "#F45050" }}>Pharm</span>
+            </strong>
           </a>
         </nav>
       </div>
       <div className="Frontal">
         <br />
         <h4 style={{ fontStyle: "italic", color: "green" }}>
-  Blockchain technology to develop a safe and transparent supply chain
-  management solution for the pharmaceutical business
-</h4>
-
+          Blockchain technology to develop a safe and transparent supply chain
+          management solution for the pharmaceutical business
+        </h4>
 
         <br />
       </div>
@@ -160,7 +162,7 @@ function Home() {
                       rel="noopener noreferrer"
                     >
                       <FaLinkedin />
-                        Saumya Purohit
+                      Saumya Purohit
                     </a>
                   </p>
                 </li>
@@ -181,7 +183,7 @@ function Home() {
                       rel="noopener noreferrer"
                     >
                       <FaLinkedin />
-                        Shrestha Jaiswal
+                      Shrestha Jaiswal
                     </a>
                   </p>
                 </li>
