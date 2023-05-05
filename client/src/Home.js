@@ -17,11 +17,17 @@ function Home() {
     }
     return (
         <div className='Frontal'>
+
+            
+            <br />
             <h1>BlockPharm  </h1>
+            <br />
+            <br />
             <h2>Blockchain technology to develop a safe and transparent supply chain management solution
                 for the pharmaceutical business</h2>
-        
+            <br />
             <h6>(Note: Here <u>Owner</u> is the person who deployed the smart contract on the blockchain)</h6>
+            <br />
             <h5>Step 1: Owner Should Register Raw material suppliers ,Manufacturers, Distributors and Retailers</h5>
             <h6>(Note: This is a one time step. Skip to step 2 if already done)</h6>
             <button onClick={redirect_to_roles} className="btn btn-outline-primary btn-sm">Register</button>
@@ -32,7 +38,7 @@ function Home() {
             <h5>Step 3: Control Supply Chain</h5>
             <button onClick={redirect_to_supply} className="btn btn-outline-primary btn-sm">Control Supply Chain</button>
             <br />
-            <hr />
+            
             <br />
             <h5><b>Track</b> the medicines:</h5>
             <button onClick={redirect_to_track} className="btn btn-outline-primary btn-sm">Track Medicines</button>
