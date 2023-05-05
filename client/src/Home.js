@@ -118,7 +118,7 @@ function Home() {
                     onClick={redirect_to_track}
                     className="btn btn-outline-primary btn-sm"
                   >
-                    Track Medicines
+                    <strong>Track Medicines</strong>
                   </button>
                 </td>
               </tr>
