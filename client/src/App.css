@@ -1,33 +1,29 @@
-hr{
-    position: relative;
-    top: 20px;
-    border: none;   
-    height: 12px;
-    background: black;
+hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: black;
 }
-.wait{
-    text-align: center;
-    margin-top: 5rem;
+.wait {
+  text-align: center;
+  margin-top: 5rem;
 }
 /* Experimenting with code */
 .App {
-    background-image: url('/src/assets/images/bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("/src/assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-
-
-  }
-
-.Frontal{
-    /* text-align: left; */
-    color: black;
-    text-align: center;
+.Frontal {
+  /* text-align: left; */
+  color: black;
+  text-align: center;
 }
 
 .navbar-brand {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

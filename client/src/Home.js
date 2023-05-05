@@ -102,7 +102,7 @@ function Home() {
         </Table>
         <br />
 
-        <div style={{ width: "70%", margin: "auto" }}>
+        <div style={{ width: "20%", margin: "auto" }}>
           <Table
             striped
             bordered
@@ -112,8 +112,8 @@ function Home() {
           >
             <tbody>
               <tr>
-                <td style={{ width: "5%", textAlign: "center" }}>
-                  Track the medicines:{" "}
+                <td style={{ width: "50%", textAlign: "center" }}>
+                  {" "}
                   <button
                     onClick={redirect_to_track}
                     className="btn btn-outline-primary btn-sm"
