@@ -17,8 +17,8 @@ function Home() {
     }
     return (
         <div>
-            <h3>BlockPharm : </h3>
-            <h2>Using blockchain technology to develop a safe and transparent supply chain management solution
+            <h1>BlockPharm  </h1>
+            <h2>Blockchain technology to develop a safe and transparent supply chain management solution
                 for the pharmaceutical business</h2>
         
             <h6>(Note: Here <u>Owner</u> is the person who deployed the smart contract on the blockchain)</h6>
