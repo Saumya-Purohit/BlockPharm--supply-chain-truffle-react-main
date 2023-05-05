@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import Table from "react-bootstrap/Table";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   const history = useHistory();
@@ -34,10 +35,11 @@ function Home() {
       </div>
       <div className="Frontal">
         <br />
-        <h4 style={{ fontStyle: "italic" }}>
-          "Blockchain technology to develop a safe and transparent supply chain
-          management solution for the pharmaceutical business"
-        </h4>
+        <h4 style={{ fontStyle: "italic", color: "green" }}>
+  Blockchain technology to develop a safe and transparent supply chain
+  management solution for the pharmaceutical business
+</h4>
+
 
         <br />
       </div>
@@ -127,6 +129,74 @@ function Home() {
         </div>
       </div>
       <br />
+      <footer style={{ backgroundColor: "#f8f9fa" }}>
+        <div className="container py-5">
+          <div className="row">
+            <div className="col-md-4">
+              <h5>About </h5>
+              <p>
+                Our motivation is to develop a safe and transparent supply chain
+                management solution for the pharmaceutical business using
+                blockchain technology.
+              </p>
+            </div>
+            <div className="col-md-4">
+              <h5>Get in Touch : </h5>
+              <ul className="list-unstyled">
+                <li>
+                  <p>
+                    <a
+                      href="https://github.com/Saumya-Purohit"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithub />
+                      Saumya-Purohit
+                    </a>{" "}
+                    <em> | </em>
+                    <a
+                      href="https://www.linkedin.com/in/saumya-purohit-a9765a240"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLinkedin />
+                        Saumya Purohit
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
+                      href="https://github.com/sj1705"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithub />
+                      sj1705
+                    </a>{" "}
+                    <em> | </em>
+                    <a
+                      href="https://www.linkedin.com/in/sj1705"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLinkedin />
+                        Shrestha Jaiswal
+                    </a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-4">
+              <img
+                src={require("./assets/images/blockpharm-logo.png").default}
+                alt="Logo"
+                style={{ width: "100%", height: "80%" }}
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
