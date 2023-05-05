@@ -85,20 +85,9 @@ function Home() {
                 <br />
                 <h4 style={{ fontStyle: 'italic' }}>"Blockchain technology to develop a safe and transparent supply chain management solution
                     for the pharmaceutical business"</h4>
-                    <nr />
+
                     <br />
-                <h6>(Note: Here <u>Owner</u> is the person who deployed the smart contract on the blockchain)</h6>
-                <h5>Step 1: Owner Should Register Raw material suppliers ,Manufacturers, Distributors and Retailers</h5>
-                <h6>(Note: This is a one time step. Skip to step 2 if already done)</h6>
-                <button onClick={redirect_to_roles} className="btn btn-outline-primary btn-sm">Register</button>
-                <br />
-                <h5>Step 2: Owner should order medicines</h5>
-                <button onClick={redirect_to_addmed} className="btn btn-outline-primary btn-sm">Order Medicines</button>
-                <br />
-                <h5>Step 3: Control Supply Chain</h5>
-                <button onClick={redirect_to_supply} className="btn btn-outline-primary btn-sm">Control Supply Chain</button>
-                <br />
-                
+    
                 
             </div>
 
@@ -113,25 +102,44 @@ function Home() {
       </thead>
       <tbody>
         <tr>
-          <td>Data 1</td>
-          <td>Data 2</td>
-          <td>Data 3</td>
+          <td>Step 1</td>
+          <td>Owner Should Register Raw material suppliers ,Manufacturers, Distributors and Retailers<br/>
+          (Note: This is a one time step. Skip to step 2 if already done)
+          </td>
+          <td>
+          <button onClick={redirect_to_roles} className="btn btn-outline-primary btn-sm">Register</button>
+                <br />
+          </td>
         </tr>
         <tr>
-          <td>Data 4</td>
-          <td>Data 5</td>
-          <td>Data 6</td>
+          <td>Step 2</td>
+          <td>Owner should order medicines</td>
+          <td>
+          <button onClick={redirect_to_addmed} className="btn btn-outline-primary btn-sm">Order Medicines</button>
+          </td>
         </tr>
         <tr>
-          <td>Data 7</td>
-          <td>Data 8</td>
-          <td>Data 9</td>
+          <td>Step 3</td>
+          <td>Control Supply Chain</td>
+          <td>
+          <button onClick={redirect_to_supply} className="btn btn-outline-primary btn-sm">Control Supply Chain</button>
+                <br />
+          </td>
         </tr>
       </tbody>
     </Table>
     <br />
-                <h5><b>Track</b> the medicines:</h5>
-                <button onClick={redirect_to_track} className="btn btn-outline-primary btn-sm">Track Medicines</button>
+
+        
+    <Table striped bordered hover variant="light" style={{opacity: 0.9}}>
+      <tbody>
+        <tr>
+          <td style={{width: '50%', textAlign: 'center'}}>
+            Track the medicines:  <button onClick={redirect_to_track} className="btn btn-outline-primary btn-sm">Track Medicines</button>
+            </td>
+        </tr>
+      </tbody>
+    </Table>
         </div>
     )
 }
